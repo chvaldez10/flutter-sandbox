@@ -1,0 +1,82 @@
+# General
+.DS_Store
+.idea/
+*.iml
+*.log
+*.diff
+*.patch
+*.tmp
+*.bak
+*.swp
+*.hprof
+*.orig
+*.rej
+*.swo
+*.swp
+*.user
+*.userprefs
+*.lock
+*.workspace
+*.settings/
+*.vscode/
+*.history/
+*.flutter-plugins
+*.flutter-plugins-dependencies
+*.dart_tool/
+*.jks
+*.keystore
+*.pem
+*.pk8
+
+# Flutter/Dart specific
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+build/
+**/ios/Flutter/.last_build_id
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+doc/api/
+
+# Android related
+**/android/.gradle
+**/android/.idea
+**/android/**/*.jks
+**/android/**/local.properties
+**/android/**/GeneratedPluginRegistrant.*
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+
+# iOS related
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/App.framework
+**/ios/Flutter/Engine.framework
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/GeneratedPluginRegistrant.*
+**/ios/Pods/
+**/ios/Runner.xcworkspace
+**/ios/.generated/
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/build/
+**/ios/.vagrant/
+**/ios/DerivedData/
+**/ios/.pub-cache/
+
+# macOS related
+**/macos/Pods/
+**/macos/Flutter/ephemeral/
+**/macos/Flutter/GeneratedPluginRegistrant.*
+
+# Web related
+web:build/
+
+# Exceptions to above rules.
+!**/ios/Flutter/AppFrameworkInfo.plist
+!**/ios/Flutter/Debug.xcconfig
+!**/ios/Flutter/Release.xcconfig
